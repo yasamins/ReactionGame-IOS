@@ -194,15 +194,18 @@
 					AD2E27A51DC14C120055EB07 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 86H8YJR5QC;
+						LastSwiftMigration = 0820;
 					};
 					AD2E27B91DC14C120055EB07 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 86H8YJR5QC;
+						LastSwiftMigration = 0820;
 						TestTargetID = AD2E27A51DC14C120055EB07;
 					};
 					AD2E27C41DC14C120055EB07 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 86H8YJR5QC;
+						LastSwiftMigration = 0820;
 						TestTargetID = AD2E27A51DC14C120055EB07;
 					};
 				};
@@ -406,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.Reaction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -417,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.Reaction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ReactionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reaction.app/Reaction";
 			};
 			name = Debug;
@@ -440,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ReactionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reaction.app/Reaction";
 			};
 			name = Release;
@@ -451,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ReactionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Reaction;
 				USES_XCTRUNNER = YES;
 			};
@@ -463,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = metropolia.ReactionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Reaction;
 				USES_XCTRUNNER = YES;
 			};
@@ -487,6 +496,7 @@
 				AD2E27D01DC14C120055EB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD2E27D11DC14C120055EB07 /* Build configuration list for PBXNativeTarget "ReactionTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +505,7 @@
 				AD2E27D31DC14C120055EB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD2E27D41DC14C120055EB07 /* Build configuration list for PBXNativeTarget "ReactionUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +514,7 @@
 				AD2E27D61DC14C120055EB07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
